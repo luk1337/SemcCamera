@@ -1,0 +1,12 @@
+-app/CameraAddonPermission/CameraAddonPermission.apk;PRESIGNED
+-app/CameraCommonPermission/CameraCommonPermission.apk;PRESIGNED
+-app/CameraExtensionPermission-release/CameraExtensionPermission-release.apk;PRESIGNED
+etc/permissions/com.sonymobile.camera.addon.xml
+etc/permissions/com.sonymobile.imageenhancer.xml
+framework/com.sonymobile.camera.addon_impl.jar
+framework/com.sonymobile.imageenhancer_impl.jar
+-priv-app/ArtFilterCamera-xxhdpi-release/ArtFilterCamera-xxhdpi-release.apk;PRESIGNED
+-priv-app/CameraCommon/CameraCommon.apk;PRESIGNED
+-priv-app/CameraPanorama-release/CameraPanorama-release.apk;PRESIGNED
+-priv-app/SemcCameraUI-odm-xxhdpi-release/SemcCameraUI-odm-xxhdpi-release.apk;PRESIGNED
+-priv-app/SoundPhotoCamera-xxhdpi-release/SoundPhotoCamera-xxhdpi-release.apk;PRESIGNED
