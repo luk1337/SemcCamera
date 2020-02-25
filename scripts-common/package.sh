@@ -1,7 +1,7 @@
 #!/bin/bash
 
 BASENAME=`basename "${DST}"`
-OUT=`realpath "${DST}/../${BASENAME}.zip"`
+OUT=`realpath "${DST}/../${BASENAME}-$(date +%Y%m%d).zip"`
 TEMP=`mktemp -d`
 
 rm "${OUT}" 2>/dev/null
