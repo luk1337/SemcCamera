@@ -37,7 +37,7 @@ echo "#!/sbin/sh
 
 list_files() {
 cat <<EOF
-`cat "${DST}/proprietary-files.txt" | sed "s/^-//g"`
+`cat "${DST}/proprietary-files.txt" | sed "s/^-//g;s/\;PRESIGNED//g"`
 etc/default-permissions/semccamera-default-permissions.xml
 etc/permissions/privapp-permissions-semccamera.xml
 EOF
