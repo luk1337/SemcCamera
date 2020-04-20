@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
 <permissions>
     <privapp-permissions package="com.sonyericsson.android.addoncamera.artfilter">
         <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
