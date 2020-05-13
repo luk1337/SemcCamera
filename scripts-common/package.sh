@@ -23,6 +23,11 @@ cp -v "${DST}/semccamera-default-permissions.xml" system/etc/default-permissions
 mkdir -p system/etc/permissions
 cp -v "${DST}/privapp-permissions-semccamera.xml" system/etc/permissions
 
+if [ -f "${DST}/semccamera-sysconfig.xml" ]; then
+    mkdir -p system/etc/sysconfig
+    cp -v "${DST}/semccamera-sysconfig.xml" system/etc/sysconfig
+fi
+
 mkdir -p system/addon.d
 echo "#!/sbin/sh
 #
