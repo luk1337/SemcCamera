@@ -45,6 +45,7 @@ cat <<EOF
 `cat "${DST}/proprietary-files.txt" | sed "s/^-//g;s/\;PRESIGNED//g"`
 etc/default-permissions/semccamera-default-permissions.xml
 etc/permissions/privapp-permissions-semccamera.xml
+etc/sysconfig/semccamera-sysconfig.xml
 EOF
 }
 
